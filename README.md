@@ -11,7 +11,7 @@ You no longer have to export and re-upload assets every time they change. Just r
 
 You can deploy this project to your own Netlify account using this button: 
 
-![https://www.netlify.com/img/deploy/button.svg](https://app.netlify.com/start/deploy?repository=https://github.com/benborgers/figure)
+[![deploy to Netlify button](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/benborgers/figure)
 
 Then, go into the Netlify build settings and define two environment variables: 
 
