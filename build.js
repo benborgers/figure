@@ -4,7 +4,7 @@ const fetch = require("node-fetch")
 const { token, file } = process.env
 
 if(!(token && file)) {
-  console.error("You need to define environment variables `token` and `file`.")
+  return console.error("You need to define environment variables `token` and `file`.")
 }
 
 fs.mkdirSync("./dist")
