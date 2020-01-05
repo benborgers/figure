@@ -1,0 +1,13 @@
+{
+  "name": "figure",
+  "version": "1.0.0",
+  "main": "build.js",
+  "scripts": {
+    "build": "rm -rf dist && node ./build.js"
+  },
+  "author": "Ben Borgers <borgersbenjamin@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "node-fetch": "^2.6.0"
+  }
+}

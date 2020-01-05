@@ -1,0 +1,11 @@
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+[dev]
+  command = "npm run build"
+  port = 3000
+
+[[redirects]]
+  from = "/*"
+  to = "/:splat.png"
